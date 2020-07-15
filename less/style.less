@@ -275,7 +275,7 @@ grid-column-start:4;
 		padding:15% 0 0 0;
 		margin-bottom: 0;
 		text-align: center;
-		font-size: 30px;
+		font-size: 30wpx;
 	}
 	.medicarePlanText{
 		padding-top:50px;
@@ -329,6 +329,13 @@ grid-column-start:4;
 	display: block;
 	text-align: center;
 	padding:75px 50px 30px 50px;
+	transition: 0.4s;
+	&:hover{
+border-top-left-radius:50px;
+border-top-right-radius:50px;
+transition: 1s;	
+transform: translateY(-50px);
+}
 	h2{
 	font-size: 30px;	
 	}
@@ -890,12 +897,12 @@ animation-iteration-count:infinite;
 }
 .imgtxt:nth-child(3){
 .gridItemIcon i{
-animation-name:mapBounce;
+animation-name:bounce;
 animation-duration:4s;
 animation-delay:2s;
 animation-timing-function:ease;
 animation-iteration-count:infinite;
-@keyframes mapBounce{
+@keyframes bounce{
 0%{
 transform:translateY(0px);	
 }

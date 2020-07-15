@@ -1,8 +1,4 @@
 jQuery(document).ready(function() {
-    jQuery('.pluses').addClass("hidden").viewportChecker({
-        classToAdd: 'visible animated fadeInUp',
-        offset: 300
-    });
     jQuery('.WhyUsSection').addClass("hidden").viewportChecker({
         classToAdd: 'visible animated fadeInUp',
         offset: 300
@@ -12,8 +8,6 @@ jQuery(document).ready(function() {
         classToAdd: 'visible animated jackInTheBox',
         offset: 300
     });
-    
-
 
     jQuery('.HowWeWorks').addClass("hidden").viewportChecker({
         classToAdd: 'visible animated slideInRight',
