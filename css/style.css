@@ -372,7 +372,7 @@ figure {
   padding: 15% 0 0 0;
   margin-bottom: 0;
   text-align: center;
-  font-size: 30px;
+  font-size: 30wpx;
 }
 .medicarePlan .medicarePlanText {
   padding-top: 50px;
@@ -426,6 +426,16 @@ figure {
   display: block;
   text-align: center;
   padding: 75px 50px 30px 50px;
+  -webkit-transition: 0.4s;
+  transition: 0.4s;
+}
+.plusesRow .rowItem:hover {
+  border-top-left-radius: 50px;
+  border-top-right-radius: 50px;
+  -webkit-transition: 1s;
+  transition: 1s;
+  -webkit-transform: translateY(-50px);
+          transform: translateY(-50px);
 }
 .plusesRow .rowItem h2 {
   font-size: 30px;
@@ -1868,3 +1878,4 @@ footer .footerGridItem9 i {
     text-align: center;
   }
 }
+/*# sourceMappingURL=style.css.map */
